@@ -1,0 +1,196 @@
+/* General */
+main {
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 44px;
+  font-weight: 300;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 1%;
+  font-size: 65px;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  main {
+    font-size: 5vw;
+  }
+  h1 {
+    font-size: 8vw;
+  }
+}
+
+.footer {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 1%;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.color-button {
+  width: 95%;
+  border-radius: 10%;
+  margin: auto;
+  position: relative;
+}
+
+.color-button:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.wrong {
+  box-shadow:  inset 0 0 10px #ff0000;
+}
+
+#red {
+  background-color: #ffb3ba;
+}
+
+#orange {
+  background-color: #ffdfba;
+}
+
+#yellow {
+  background-color: #ffeb8c;
+}
+
+#green {
+  background-color: #baffc9;
+}
+
+#blue {
+  background-color: #bae1ff;
+}
+
+#purple {
+  background-color: #bea3ff;
+}
+
+#pink {
+  background-color: #f6dbdb;
+}
+
+#lime {
+  background-color: #dcf98c;
+}
+
+#grey {
+  background-color: #bccbcd;
+}
+
+.red {
+  color: #ffb3ba;
+}
+
+.orange {
+  color: #ffdfba;
+}
+
+.yellow {
+  color: #ffeb8c;
+}
+
+.green {
+  color: #baffc9;
+}
+
+.blue {
+  color: #bae1ff;
+}
+
+.purple {
+  color: #bea3ff;
+}
+
+.pink {
+  color: #f6dbdb;
+}
+
+.lime {
+  color: #dcf98c;
+}
+
+.grey {
+  color: #bccbcd;
+}
+
+#blank {
+  cursor: pointer;
+}
+
+.selected {
+  box-shadow:  inset 0 0 10px #afbdd3;
+}
+
+.game {
+  background: #afbdd3;
+  border-radius: 1%;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  width: 11.11%;
+  position: relative;
+  border: solid thin;
+  border-color: #afbdd3;
+}
+
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+td .box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10%;
+  background: white;
+  text-align: center;
+  display: flex;
+  display: -webkit-flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.row2 {
+  border-bottom: solid thick;
+  border-color: #afbdd3;
+}
+
+.row5 {
+  border-bottom: solid thick;
+  border-color: #afbdd3;
+}
+
+.col2 {
+  border-right: solid thick;
+  border-color: #afbdd3;
+}
+
+.col5 {
+  border-right: solid thick;
+  border-color: #afbdd3;
+}
